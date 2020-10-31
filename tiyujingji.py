@@ -5,8 +5,8 @@ def printIntro():
     print("程序运行需要A和B的（以0到1之间的小数表示")
 
 def getInputs():
-    a = eval(input("请输入选手A的能力值（0=1）："))
-    b = eval(input("请输入选手B的能力值（0-1："))
+    a = eval(input("请输入选手A的能力值（0-1）："))
+    b = eval(input("请输入选手B的能力值（0-1）："))
     n = eval(input("模拟比赛的场次："))
     return a, b, n
 
